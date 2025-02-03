@@ -45,4 +45,4 @@ if __name__ == "__main__":
     intents.message_content = True
     client = MyClient(intents=intents)
 
-    client.run(os.getenv('BOT_KEY'))
+    client.run(os.getenv('TESTBOT_KEY'))
